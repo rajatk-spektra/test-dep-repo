@@ -17,13 +17,13 @@ code --install-extension GitHub.copilot
 code --install-extension ms-python.python
 
 # Clone the Git repository to C:\LabFiles
-$repoUrl = "https://github.com/CloudLabsAI-Azure/ai-developer.git"
-$destinationPath = "C:\LabFiles\ai-developer"
+$repoUrl = "https://github.com/CloudLabsAI-Azure/Build26-LAB521-improving-agent-behavior-using-reinforcement-learning-from-traces.git"
+$destinationPath = "C:\LabFiles\Build26-LAB521-improving-agent-behavior-using-reinforcement-learning-from-traces"
 git clone $repoUrl $destinationPath
 
 # Manual status agent check
 # Validate all deployments and assignments for manual status agent
-if(Test-Path "C:\LabFiles\ai-developer" -PathType Container)
+if(Test-Path "C:\LabFiles\Build26-LAB521-improving-agent-behavior-using-reinforcement-learning-from-traces" -PathType Container)
 {
     Write-Information "Validation Passed"
     $validstatus = "Successfull"
