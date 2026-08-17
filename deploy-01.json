@@ -168,11 +168,11 @@
         "settings": {
           "fileUris": [
             "https://experienceazure.blob.core.windows.net/templates/cloudlabs-common/cloudlabs-windows-functions.ps1",
-            "https://experienceazure.blob.core.windows.net/templates/ai-foundry-and-semantic-kernel/scripts/psscript-01.ps1"
+            "https://raw.githubusercontent.com/rajatk-spektra/test-dep-repo/refs/heads/main/psscript-01.ps1"
           ]
         },
         "protectedSettings": {
-          "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted -File ai-foundry-and-semantic-kernel/scripts/psscript-01.ps1', variables('cloudlabsCommon'),variables('Enable-CloudLabsEmbeddedShadow'))]"
+          "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted -File psscript-01.ps1', variables('cloudlabsCommon'),variables('Enable-CloudLabsEmbeddedShadow'))]"
         }
       }
     },
