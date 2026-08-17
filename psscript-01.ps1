@@ -80,7 +80,7 @@ InstallModernVmValidator
 
 #Download LogonTask
 $WebClient = New-Object System.Net.WebClient
-$WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/ai-foundry-and-semantic-kernel/scripts/logontask-01.ps1","C:\LabFiles\logontask-01.ps1")
+$WebClient.DownloadFile("https://raw.githubusercontent.com/rajatk-spektra/test-dep-repo/refs/heads/main/logontask-01.ps1","C:\LabFiles\logontask-01.ps1")
 
 #Enable Auto-Logon
 $AutoLogonRegPath = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon"
