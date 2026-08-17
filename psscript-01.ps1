@@ -54,6 +54,7 @@ choco install git -y
 refreshenv
 choco install vscode.install -y
 choco install python --version=3.11.0
+choco install azure-cli -y
 
 # Run Imported functions from cloudlabs-windows-functions.ps1
 WindowsServerCommon
